@@ -220,7 +220,7 @@ img {
 
 .swiper-pagination-bullet-active {
   width: 1.5rem;/*especifica la anchura del area de contenido de un elemento*/
-  height: 5px;
+  height: 5px;/*Altura de un elememto*/
   border-radius: 0.5rem;/*radio del borde*/
 }
 
@@ -234,13 +234,13 @@ img {
 }
 
 .categorydata {
-    text-align: center;
+    text-align: center;/*alineacion de texto*/
 }
 
 .categoryimg {
     width: 120px;/*especifica la anchura del area de contenido de un elemento*/
     margin-bottom: .75rem;/*margen inferior*/
-    transition: 3s;
+    transition: 3s;/*transición entre dos estados de un elemento*/
 }
 
 .categorytitle {
@@ -249,7 +249,7 @@ img {
 
 
 .categorydata:hover .categoryimg {
-    transform: translateY(-.5rem);
+    transform: translateY(-.5rem);/*te permite modificar el espacio de coordenadas del modelo de formato visual CSS*/
 }
 
 
@@ -274,7 +274,7 @@ img {
 
 .productcontainer {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 1.5rem;/*Establece el espacio entre las filas y las columnas*/
     padding-top: 1rem;/*establece el espacio de relleno requerido en la parte superior del elemento*/
 
 
@@ -327,7 +327,7 @@ img {
 }
 
 .productcontent:hover .productimg {
-    transform: translateY(-.5rem);
+    transform: translateY(-.5rem);/*te permite modificar el espacio de coordenadas del modelo de formato visual CSS*/
 }
 
 .productcontent:hover .productbutton {
@@ -432,7 +432,7 @@ img {
 }
 
 .newcontent:hover .newimg {
-    transform: translateY(-.5rem);
+    transform: translateY(-.5rem);/*te permite modificar el espacio de coordenadas del modelo de formato visual CSS*/
 }
 
 .newcontent:hover .newbutton {
@@ -490,7 +490,7 @@ img {
 .footerL {
     display: flex;/*especifica si un elemento es tratado como block or inline element*/
     align-items: center;
-    column-gap: .5rem;
+    column-gap: .5rem;/*Tamaño de espacio entre las columnas*/
     margin-bottom: 1rem;/*margen inferior*/
     font-weight: 500;
     color: #fff;
@@ -506,7 +506,7 @@ img {
 
 .footersocial {
     display: flex;/*especifica si un elemento es tratado como block or inline element*/
-    column-gap: .75rem;
+    column-gap: .75rem;/*Tamaño de espacio entre las columnas*/
 }
 
 .footersocial-link {
@@ -651,7 +651,7 @@ img {
     }
     .navList {
         flex-direction: row;
-        column-gap: 3rem;
+        column-gap: 3rem;/*Tamaño de espacio entre las columnas*/
     }
     .navLink {
         text-transform: initial;
@@ -660,7 +660,7 @@ img {
     .homecont {
         padding: 8rem 0 2rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
         grid-template-columns: repeat(2, 1fr);
-        gap: 4rem;
+        gap: 4rem;/*Establece el espacio entre las filas y las columnas*/
     }
 
     .swiper-pagination {
@@ -686,14 +686,14 @@ img {
     .productcontainer {
         grid-template-columns: repeat(3,200px);
         justify-content: center;
-        gap: 2rem;
+        gap: 2rem;/*Establece el espacio entre las filas y las columnas*/
     }
 
     .discountcontainer {
         grid-template-columns: repeat(2, max-content);
         justify-content: center;
         align-items: center;
-        column-gap: 3rem;
+        column-gap: 3rem;/*Tamaño de espacio entre las columnas*/
         padding: 3rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
         border-radius: 3rem;/*radio del borde*/
     }
@@ -714,7 +714,7 @@ img {
     .footercontainer {
         grid-template-columns: repeat(4, 1fr);
         justify-items: center;
-        column-gap: 1rem;
+        column-gap: 1rem;/*Tamaño de espacio entre las columnas*/
     }
 
     
@@ -739,7 +739,7 @@ img {
 
     .homecont {
         padding-top: 9rem;
-        gap: 3rem;
+        gap: 3rem;/*Establece el espacio entre las filas y las columnas*/
     }
     
     .homeindicator {
@@ -764,14 +764,14 @@ img {
         padding-right: 2rem;
     }
     .categorycontainer {
-        column-gap: 8rem;
+        column-gap: 8rem;/*Tamaño de espacio entre las columnas*/
     }
 
     .categoryimg {
-        width: 200px;
+        width: 200px;/*especifica la anchura del area de contenido de un elemento*/
     }
     .aboutcontainer {
-        column-gap: 7rem;
+        column-gap: 7rem;/*Tamaño de espacio entre las columnas*/
     }
     .aboutimg {
         width: 350px;/*especifica la anchura del area de contenido de un elemento*/
@@ -780,7 +780,7 @@ img {
         padding-right: 2rem;
     }
     .productcontainer {
-        gap: 3.5rem;
+        gap: 3.5rem;/*Establece el espacio entre las filas y las columnas*/
     }
     .productcontent {
         border-radius: 1.5rem;/*radio del borde*/
@@ -794,7 +794,7 @@ img {
         font-size: 1rem;/*Tamaño letra body*/
     }
     .discountcontainer {
-        column-gap: 7rem;
+        column-gap: 7rem;/*Tamaño de espacio entre las columnas*/
     }
 
     .newcontent {
