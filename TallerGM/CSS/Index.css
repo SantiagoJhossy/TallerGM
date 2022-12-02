@@ -175,7 +175,7 @@ img {
     width: 5px;/*especifica la anchura del area de contenido de un elemento*/
     height: 5px;/*especifica la altura de un elemento.*/
     background-color: #fff;/*color de fondo*/
-    border-radius: 50%;/*Radio del borde*/
+    border-radius: 50%;/*radio del borde*/
 }
 
 /*Home*/
@@ -203,25 +203,25 @@ img {
 
 .swiper-pagination {
     position: initial;/*especifica cómo un elemento es posicionado en el documento*/
-    margin-top: 1rem;
+    margin-top: 1rem;/*margen arriba*/
 }
 
 .swiper-pagination-bullet {
     width: 5px;/*especifica la anchura del area de contenido de un elemento*/
-    height: 5px;
-    background-color: #fff;
+    height: 5px;/*especifica la altura de un elemento*/
+    background-color: #fff;/*color de fondo*/
     opacity: 1; /*Define la transparancia de un elemento*/
 }
 
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
-  margin: 0 0.5rem;
+  margin: 0 0.5rem;/*establece el margen para los cuatro lados*/
 }
 
 .swiper-pagination-bullet-active {
   width: 1.5rem;/*especifica la anchura del area de contenido de un elemento*/
   height: 5px;
-  border-radius: 0.5rem;
+  border-radius: 0.5rem;/*radio del borde*/
 }
 
 
@@ -239,12 +239,12 @@ img {
 
 .categoryimg {
     width: 120px;/*especifica la anchura del area de contenido de un elemento*/
-    margin-bottom: .75rem;
+    margin-bottom: .75rem;/*margen inferior*/
     transition: 3s;
 }
 
 .categorytitle {
-    margin-bottom: .25rem;
+    margin-bottom: .25rem;/*margen inferior*/
 }
 
 
@@ -263,7 +263,7 @@ img {
 }
 
 .aboutdescription{
-    margin-bottom: 2rem;
+    margin-bottom: 2rem;/*margen inferior*/
 }
 .aboutimg {
     width: 200px;/*especifica la anchura del area de contenido de un elemento*/
@@ -275,7 +275,7 @@ img {
 .productcontainer {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-    padding-top: 1rem;/*establece el espacio de relleno requerido en la parte superior del elemento.*/
+    padding-top: 1rem;/*establece el espacio de relleno requerido en la parte superior del elemento*/
 
 
 }
@@ -284,7 +284,7 @@ img {
     position: relative;
     background: #000c32;
     border-radius: 1rem;
-    padding: 1.5rem 0 1rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento.*/
+    padding: 1.5rem 0 1rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     text-align: center;
     overflow: hidden;
 }
@@ -301,7 +301,7 @@ img {
 
 .productsubtitle {
     font-size: .75rem;/*Tamaño letra body*/
-    margin-bottom: .5rem;
+    margin-bottom: .5rem;/*margen inferior*/
 }
 
 .producttitle,
@@ -314,8 +314,8 @@ img {
 
 .productbutton {
     display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
-    padding: .5rem;
-    border-radius: .25rem .25rem .75rem .25rem;
+    padding: .5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
+    border-radius: .25rem .25rem .75rem .25rem;/*radio del borde*/
     position: absolute;
     right: -3rem;
     bottom: 0;
@@ -338,8 +338,8 @@ img {
 /*DESCUENTO*/
 .discountcontainer {
     background: #000c32;
-    border-radius: 1rem;
-    padding: 2.5rem 0 1.5rem;
+    border-radius: 1rem;/*radio del borde*/
+    padding: 2.5rem 0 1.5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     row-gap: .75rem;
 }
 .discountdata {
@@ -349,7 +349,7 @@ img {
 
 .discounttitle {
     font-size: 1.25rem;/*Tamaño letra body*/
-    margin-bottom: 2rem;
+    margin-bottom: 2rem;/*margen inferior*/
 }
 
 .discountimg {
@@ -359,12 +359,12 @@ img {
 
 /*NEW*/
 .newcontainer {
-    padding-top: 1rem;
+    padding-top: 1rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
 }
 
 .newimg {
     width: 120px;/*especifica la anchura del area de contenido de un elemento*/
-    margin-bottom: .5rem;
+    margin-bottom: .5rem;/*margen inferior*/
     transition: .3s;
 }
 
@@ -372,8 +372,8 @@ img {
     position: relative;
     background: #000c32;
     width: 242px;/*especifica la anchura del area de contenido de un elemento*/
-    padding: 2rem 0 1.5rem 0;
-    border-radius: .75rem;
+    padding: 2rem 0 1.5rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
+    border-radius: .75rem;/*radio del borde*/
     text-align: center;
     overflow: hidden;
 }
@@ -385,8 +385,8 @@ img {
     background-color: #3678ff;
     color: #fff;
     font-size: .813rem;/*Tamaño letra body*/
-    padding: .25rem .5rem;
-    border-radius: .25rem;
+    padding: .25rem .5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
+    border-radius: .25rem;/*radio del borde*/
 }
 
 .newtitle {
@@ -397,7 +397,7 @@ img {
 .newsubtitle {
     display: block;/*especifica si un elemento es tratado como block or inline element*/
     font-size: .813rem;/*Tamaño letra body*/
-    margin-bottom: .5rem;
+    margin-bottom: .5rem;/*margen inferior*/
 }
 
 .newprices {
@@ -420,8 +420,8 @@ img {
 
 .newbutton {
     display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
-    padding: .5rem;
-    border-radius: .25rem .25rem .75rem .25rem;
+    padding: .5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
+    border-radius: .25rem .25rem .75rem .25rem;/*radio del borde*/
     position: absolute;
     bottom: 0;
     right: -3rem;
@@ -443,21 +443,21 @@ img {
 /*NOTICIAS*/
 .newsld {
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;/*margen inferior*/
 }
 
 .newslf {
     background: #3678ff;
-    padding: 1rem;
+    padding: 1rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     display: flex;/*especifica si un elemento es tratado como block or inline element*/
     justify-content: space-between;
-    border-radius: .75rem;
+    border-radius: .75rem;/*radio del borde*/
 }
 
 
 .newslin {
     width: 70%;/*especifica la anchura del area de contenido de un elemento*/
-    padding: 0 .5rem;
+    padding: 0 .5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     background: none;
     color: #fff;
 }
@@ -466,8 +466,8 @@ img {
     display: inline-block;/*especifica si un elemento es tratado como block or inline element*/
     background: #0557fc;
     color: #fff;
-    padding: 1rem 1.75rem;
-    border-radius: 0.5rem;
+    padding: 1rem 1.75rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
+    border-radius: 0.5rem;/*radio del borde*/
     font-weight: 500;
     transition: .3s;
 }
@@ -491,7 +491,7 @@ img {
     display: flex;/*especifica si un elemento es tratado como block or inline element*/
     align-items: center;
     column-gap: .5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;/*margen inferior*/
     font-weight: 500;
     color: #fff;
 }
@@ -501,7 +501,7 @@ img {
 }
 
 .footerdescription {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem;/*margen inferior*/
 }
 
 .footersocial {
@@ -512,8 +512,8 @@ img {
 .footersocial-link {
     display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
     background: #000c32;
-    padding: .25rem;
-    border-radius: .25rem;
+    padding: .25rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
+    border-radius: .25rem;/*radio del borde*/
     color: #fff;
     font-size: 1rem;/*Tamaño letra body*/
 }
@@ -524,7 +524,7 @@ img {
 
 .footertitle {
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;/*margen inferior*/
 }
 
 .footerlinks {
@@ -546,7 +546,7 @@ img {
     display: block;/*especifica si un elemento es tratado como block or inline element*/
     text-align: center;
     font-size: .75rem;/*Tamaño letra body*/
-    margin-top: 4.5rem;
+    margin-top: 4.5rem;/*margen superior*/
 }
 
 /*scroll up */
@@ -556,8 +556,8 @@ img {
   right: 1rem;
   bottom: -20%;
   display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
-  padding: .3rem;
-  border-radius: .25rem;
+  padding: .3rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
+  border-radius: .25rem;/*radio del borde*/
   z-index:10;
   opacity: .8;
   transition: .4s;
@@ -585,14 +585,14 @@ img {
 }
 ::-webkit-scrollbar-thumb {
     background: #272525;
-    border-radius: .5rem;
+    border-radius: .5rem;/*radio del borde*/
 }
 
 .gerencia {
     width: 60%;/*especifica la anchura del area de contenido de un elemento*/
     text-align: center;
     height: 30%;
-    margin-top: 0.4cm;
+    margin-top: 0.4cm;/*margen superior*/
 }
 
 /*RESPONSIVE */
@@ -630,17 +630,17 @@ img {
         justify-content: center;
     }
     .newsld {
-        padding: 0 3rem;
+        padding: 0 3rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     }
 
 }
 
 @media (min-width: 767px) {
     body {
-        margin: 0;
+        margin: 0;/*establece el margen para los cuatro lados*/
     }
     .section {
-        padding: 7rem 0 2rem;
+        padding: 7rem 0 2rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     }
     .nav {
         height: calc(3.5rem + 1.5rem);
@@ -658,13 +658,13 @@ img {
         font-weight: initial;
     }
     .homecont {
-        padding: 8rem 0 2rem;
+        padding: 8rem 0 2rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
         grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
     }
 
     .swiper-pagination {
-        margin-top: 2rem;
+        margin-top: 2rem;/*margen superior*/
     }
 
     .categorycontainer {
@@ -694,8 +694,8 @@ img {
         justify-content: center;
         align-items: center;
         column-gap: 3rem;
-        padding: 3rem 0;
-        border-radius: 3rem;
+        padding: 3rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
+        border-radius: 3rem;/*radio del borde*/
     }
 
     .discountimg {
@@ -729,12 +729,12 @@ img {
 
     .sectiontitle {
         font-size: 1.5rem;/*Tamaño letra body*/
-        margin-bottom: 3rem;
+        margin-bottom: 3rem;/*margen inferior*/
     }
 
     .hometitle {
         font-size: 1.5rem;/*Tamaño letra body*/
-        margin-bottom: 3rem;
+        margin-bottom: 3rem;/*margen inferior*/
     }
 
     .homecont {
@@ -760,7 +760,7 @@ img {
     }
 
     .homedes {
-        margin-bottom: 2.5rem;
+        margin-bottom: 2.5rem;/*margen inferior*/
         padding-right: 2rem;
     }
     .categorycontainer {
@@ -783,7 +783,7 @@ img {
         gap: 3.5rem;
     }
     .productcontent {
-        border-radius: 1.5rem;
+        border-radius: 1.5rem;/*radio del borde*/
     }
     .productimg {
         width: 110px;/*especifica la anchura del area de contenido de un elemento*/
@@ -799,8 +799,8 @@ img {
 
     .newcontent {
         width: 310px;/*especifica la anchura del area de contenido de un elemento*/
-        border-radius: 1rem;
-        padding: 2rem 0;
+        border-radius: 1rem;/*radio del borde*/
+        padding: 2rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     }
 
     .newimg {
@@ -808,15 +808,15 @@ img {
     }
     .newimg,
     .newsubtitle {
-        margin-bottom: 1rem;
+        margin-bottom: 1rem;/*margen inferior*/
     }
 
     .newtitle {
-        font-size: 1rem;/*Tamaño letra body*/
+        font-size: 1rem;/*Tamaño letra*/
     }
 
     .footercopy {
-        margin-top: 6rem;
+        margin-top: 6rem;/*margen superior*/
     }
 
 }
@@ -824,7 +824,7 @@ img {
 @media (min-width: 1200px) {
 
     .swiper-pagination {
-        margin-top: 2.5rem;
+        margin-top: 2.5rem;/*margen superior*/
     }
 }
 
