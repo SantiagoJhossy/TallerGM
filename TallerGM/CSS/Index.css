@@ -2,29 +2,29 @@
 
 /*Body*/
 * {
-    box-sizing: border-box; /*Tamaño de caja*/
-    padding: 0; /*Espacio de contenido y el borde*/
-    margin: 0; /*Margen*/
+    box-sizing: border-box;/*como el user agent (en-US) debe calcular el ancho y alto total de un elemento.*/
+    padding: 0; /*establece el espacio de relleno requerido por todos los lados de un elemento.*/
+    margin: 0; /*establece el margen para los cuatro lados*/
 }
 
 html {
-    scroll-behavior: smooth; /*Comportamiento del desplazamiento*/
+    scroll-behavior: smooth; /*especifica el comportamiento del desplazamiento para un elemento con desplazamiento,*/
 }
 
 body {
-    margin: 3.5rem 0 0 0; /*Margen body*/
-    font-family: Georgia, 'Times New Roman', Times, serif; /*Tipo fuente body*/
+    margin: 3.5rem 0 0 0; /*establece el margen para los cuatro lados*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /*define una lista de fuentes o familias de fuentes*/
     font-size: .950rem; /*Tamaño letra body*/
-    background: linear-gradient(90deg, #000000 10%, #505050 50%); /*Color body*/
-    color: #fff; /*Color letras body*/
+    background: linear-gradient(90deg, #000000 10%, #505050 50%); /* es un atajo para definir los valores individuales del fondo */
+    color: #fff; /*denota un color*/
 }
 
 ul {
-    list-style: none; /*Puntos del link*/
+    list-style: none; /*combia estilo de lista */
 }
 
 a {
-    text-decoration: none; /*Subrayados*/
+    text-decoration: none; /*se usa para establecer el formato de texto a subrayado*/
 }
 
 img {
@@ -36,14 +36,14 @@ img {
 .button {
     display: inline-block; /*Diseño en pantalla*/
     color: #fff; /*color letras*/
-    padding: 1rem 1rem; /*Espacio de contenido y el borde*/
+    padding: 1rem 1rem; /*establece el espacio de relleno requerido por todos los lados de un elemento.*/
     border-radius: .5rem; /*Radio del borde*/
-    font-weight: 500; /*tamaño fuente*/
-    transition: .3s; /*transición*/
+    font-weight: 500; /*especifica el peso o grueso de la letra*/
+    transition: .3s; /*transición entre dos estados de un elemento*/
 }
 
 .button:hover {
-    background-color: #696969; /*color botón*/
+    background-color: #696969; /*color del fondo*/
 }
 
 
@@ -54,11 +54,11 @@ img {
 /*Cabecera cuerpo*/
 .header {
     width: 100%; /*ancho*/
-    background: linear-gradient(50deg, #505050 20%, #000000 40%); /*Color header*/
+    background: linear-gradient(50deg, #505050 20%, #000000 40%);/*es un atajo para definir los valores individuales del fondo */
     position: fixed; /*posición*/
-    top: 0; /*posición vertical*/
-    left: 0; /*posición horizontal*/
-    z-index: 100; /*control vertical*/
+    top: 0; /*posición arriba*/
+    left: 0; /*posición izquierda*/
+    z-index: 100; /*indica el orden de un elemento posicionado y sus descendientes*/
 }
 
 .grid {
@@ -66,46 +66,47 @@ img {
 }
 
 .main {
-    overflow: hidden; /*muestra del contenido*/
+    overflow: hidden; /*especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque.*/
 }
 
 .container {
-    max-width: 968px;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    max-width: 968px;/*Tamaño máximo*/
+    margin-left: 1.5rem;/*margen izquierda*/
+    margin-right: 1.5rem;/*margen derecha*/
 }
 
 .nav {
-    height: 4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 4rem;/*especifica la altura de un elemento.*/
+    display: flex;/*especifica si un elemento es tratado como block or inline element*/
+    justify-content: space-between;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor.*/
+    align-items: center;/* establece el valor align-self sobre todos los descendientes directos de un grupo*/
 }
 
 .navLogo {
-    display: flex;
-    align-items: center;
-    column-gap: .8rem;
-    font-weight: 100;
+    display: flex;/*especifica si un elemento es tratado como block or inline element*/
+    align-items: center;/* establece el valor align-self sobre todos los descendientes directos de un grupo*/
+    column-gap: .8rem; /*Tamaño de espacio entre las columnas*/
+}
+    font-weight: 100;/*especifica el peso o grueso de la letra*/
 }
 
 .navLogo {
-    color: rgb(255, 255, 255);
-    font-family: Georgia, 'Times New Roman', Times, serif; /*Tipo fuente*/
+    color: rgb(255, 255, 255);/*color del elememto*/
+    font-family: Georgia, 'Times New Roman', Times, serif;/*define una lista de fuentes o familias de fuentes*/
 }
 
 .navLogo-img {
-    width: 8rem;
+    width: 8rem;/*especifica la anchura del area de contenido de un elemento*/
 }
 
 .section {
-    padding: 4.5rem 0 2rem;
+    padding: 4.5rem 0 2rem;/*establece el espacio de relleno requerido por todos los lados de un elemento.*/
 }
 
 .sectiontitle {
-    font-size: 2.5rem !important;
-    margin-bottom: 2rem;
-    text-align: center;
+    font-size: 2.5rem !important;/*Tamaño letra*/
+    margin-bottom: 2rem;/*margen inferior*/
+    text-align: center;/*alineacion de texto*/
 }
 
 .navLink,
@@ -115,34 +116,34 @@ img {
 }
 
 .navToggle {
-    font-size: 1.25rem;
+    font-size: 1.25rem;/*Tamaño letra*/
     cursor: pointer; /*estilo cursor*/
 }
 
 @media (max-width: 767px) {
     .navMenu {
-        position: fixed;
-        width: 100%;
-        background: #000000;
-        top: -150%;
-        left: 0;
-        padding: 3.5rem;
-        transition: .4s;
-        z-index: 100;
-        border-radius: 0 0 1.5rem;
+        position: fixed;/*especifica cómo un elemento es posicionado en el documento*/
+        width: 100%;/*especifica la anchura del area de contenido de un elemento*/
+        background: #000000;/*es un atajo para definir los valores individuales del fondo*/
+        top: -150%;/*posición arriba*/
+        left: 0; /*posición izquierda*/
+        padding: 3.5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento.*/
+        transition: .4s; /*transición entre dos estados de un elemento*/
+        z-index: 100; /*indica el orden de un elemento posicionado y sus descendientes*/
+        border-radius: 0 0 1.5rem;/*Radio del borde*/
     }
 }
 
 .navclose {
-    font-size: 1.8rem;
-    position: absolute;
-    top: .5rem;
-    right: .7rem;
-    cursor: pointer;
+    font-size: 1.8rem;/*Tamaño letra*/
+    position: absolute;/*especifica cómo un elemento es posicionado en el documento*/
+    top: .5rem;/*posición arriba*/
+    right: .7rem;/*especifica parte de la posición de un elemento*/
+    cursor: pointer;/*estilo cursor*/
 }
 
 .navList {
-    display: flex;
+    display: flex;/*especifica si un elemento es tratado como block or inline element*/
     flex-direction: column;/*Especifica como colocar los objetos flexibles en el contenedor*/
     align-items: center; /*Centra los elementos*/
     row-gap: 1.5rem; /*Tamaño de espacio entre las filas*/
@@ -150,63 +151,63 @@ img {
 
 .navLink {
     text-transform: uppercase; /*Especifica como capitalizar el texto de un elemento*/
-    font-weight: 900;
-    transition: .4s;
+    font-weight: 900;/*especifica el peso o grueso de la letra*/
+    transition: .4s; /*transición entre dos estados de un elemento*/
 }
 
 .show-menu {
-    top: 0;
+    top: 0;/*posición arriba*/
 }
 
 .scroll-header {
-    background: #20242e;
+    background: #20242e;/*es un atajo para definir los valores individuales del fondo*/
 }
 
 .active-link {
-    position: relative;
+    position: relative;/*especifica cómo un elemento es posicionado en el documento*/
 }
 
 .active-link::before {
     content: ''; /*Reemplaza un elemento con un valor generado*/
-    position: absolute;
-    bottom: -.75rem;
-    left: 45%;
-    width: 5px;
-    height: 5px;
-    background-color: #fff;
-    border-radius: 50%;
+    position: absolute;/*especifica cómo un elemento es posicionado en el documento*/
+    bottom: -.75rem;/*especifica parte de la posición de un elemento*/
+    left: 45%; /*posición izquierda*/
+    width: 5px;/*especifica la anchura del area de contenido de un elemento*/
+    height: 5px;/*especifica la altura de un elemento.*/
+    background-color: #fff;/*color de fondo*/
+    border-radius: 50%;/*Radio del borde*/
 }
 
 /*Home*/
 .homecont {
-    row-gap: 1rem;
+    row-gap: 1rem;/*Tamaño de espacio entre las filas*/
 }
 
 .hometitle {
-    font-size: 2.5rem !important;
-    margin-bottom: 5rem;
-    text-align: center;
+    font-size: 2.5rem !important;/*Tamaño letra body*/
+    margin-bottom: 5rem;/*margen inferior*/
+    text-align: center;/*alineacion de texto*/
 }
 
 .homedes {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;/*margen inferior*/
 }
 
 .homebut {
-    display: flex;
+    display: flex;/*especifica si un elemento es tratado como block or inline element*/
 }
 
 .homebut a {
-    margin-left: 10px;
+    margin-left: 10px;/*margen izquierda*/
 }
 
 .swiper-pagination {
-    position: initial;
+    position: initial;/*especifica cómo un elemento es posicionado en el documento*/
     margin-top: 1rem;
 }
 
 .swiper-pagination-bullet {
-    width: 5px;
+    width: 5px;/*especifica la anchura del area de contenido de un elemento*/
     height: 5px;
     background-color: #fff;
     opacity: 1; /*Define la transparancia de un elemento*/
@@ -218,7 +219,7 @@ img {
 }
 
 .swiper-pagination-bullet-active {
-  width: 1.5rem;
+  width: 1.5rem;/*especifica la anchura del area de contenido de un elemento*/
   height: 5px;
   border-radius: 0.5rem;
 }
@@ -237,7 +238,7 @@ img {
 }
 
 .categoryimg {
-    width: 120px;
+    width: 120px;/*especifica la anchura del area de contenido de un elemento*/
     margin-bottom: .75rem;
     transition: 3s;
 }
@@ -265,7 +266,7 @@ img {
     margin-bottom: 2rem;
 }
 .aboutimg {
-    width: 200px;
+    width: 200px;/*especifica la anchura del area de contenido de un elemento*/
     justify-self: center; /*Establece la manera que se justifica un elemento dentro de un contenedor*/ 
 }
 
@@ -274,7 +275,7 @@ img {
 .productcontainer {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-    padding-top: 1rem;
+    padding-top: 1rem;/*establece el espacio de relleno requerido en la parte superior del elemento.*/
 
 
 }
@@ -283,23 +284,23 @@ img {
     position: relative;
     background: #000c32;
     border-radius: 1rem;
-    padding: 1.5rem 0 1rem 0;
+    padding: 1.5rem 0 1rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento.*/
     text-align: center;
     overflow: hidden;
 }
 
 .productimg {
-    width: 90px;
+    width: 90px;/*especifica la anchura del area de contenido de un elemento*/
     transition: .3s;
 }
 
 .productsubtitle,
 .productprice {
-    display: block;
+    display: block;/*especifica si un elemento es tratado como block or inline element*/
 }
 
 .productsubtitle {
-    font-size: .75rem;
+    font-size: .75rem;/*Tamaño letra body*/
     margin-bottom: .5rem;
 }
 
@@ -307,12 +308,12 @@ img {
 .productprice {
     color: #fff;
     font-weight: 500;
-    font-size: .938rem;
+    font-size: .938rem;/*Tamaño letra body*/
 }
 
 
 .productbutton {
-    display: inline-flex;
+    display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
     padding: .5rem;
     border-radius: .25rem .25rem .75rem .25rem;
     position: absolute;
@@ -321,7 +322,7 @@ img {
 }
 
 .producticon {
-    font-size: 1.25rem;
+    font-size: 1.25rem;/*Tamaño letra body*/
     color: #fff;
 }
 
@@ -347,12 +348,12 @@ img {
 }
 
 .discounttitle {
-    font-size: 1.25rem;
+    font-size: 1.25rem;/*Tamaño letra body*/
     margin-bottom: 2rem;
 }
 
 .discountimg {
-    width: 200px;
+    width: 200px;/*especifica la anchura del area de contenido de un elemento*/
     justify-self: center;
 }
 
@@ -362,7 +363,7 @@ img {
 }
 
 .newimg {
-    width: 120px;
+    width: 120px;/*especifica la anchura del area de contenido de un elemento*/
     margin-bottom: .5rem;
     transition: .3s;
 }
@@ -370,7 +371,7 @@ img {
 .newcontent {
     position: relative;
     background: #000c32;
-    width: 242px;
+    width: 242px;/*especifica la anchura del area de contenido de un elemento*/
     padding: 2rem 0 1.5rem 0;
     border-radius: .75rem;
     text-align: center;
@@ -383,24 +384,24 @@ img {
     left: 8%;
     background-color: #3678ff;
     color: #fff;
-    font-size: .813rem;
+    font-size: .813rem;/*Tamaño letra body*/
     padding: .25rem .5rem;
     border-radius: .25rem;
 }
 
 .newtitle {
-    font-size: .938rem;
+    font-size: .938rem;/*Tamaño letra body*/
     font-weight: 500;
 }
 
 .newsubtitle {
-    display: block;
-    font-size: .813rem;
+    display: block;/*especifica si un elemento es tratado como block or inline element*/
+    font-size: .813rem;/*Tamaño letra body*/
     margin-bottom: .5rem;
 }
 
 .newprices {
-    display: inline-flex;
+    display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
     align-items: center;
     margin-bottom: .5rem;
 }
@@ -412,13 +413,13 @@ img {
 
 .newdiscount {
     color: #3678ff;
-    font-size: .75rem;
+    font-size: .75rem;/*Tamaño letra body*/
     text-decoration: line-through;
     font-weight: 500;
 }
 
 .newbutton {
-    display: inline-flex;
+    display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
     padding: .5rem;
     border-radius: .25rem .25rem .75rem .25rem;
     position: absolute;
@@ -427,7 +428,7 @@ img {
 }
 
 .newicon {
-    font-size: 1.25rem;
+    font-size: 1.25rem;/*Tamaño letra body*/
 }
 
 .newcontent:hover .newimg {
@@ -448,21 +449,21 @@ img {
 .newslf {
     background: #3678ff;
     padding: 1rem;
-    display: flex;
+    display: flex;/*especifica si un elemento es tratado como block or inline element*/
     justify-content: space-between;
     border-radius: .75rem;
 }
 
 
 .newslin {
-    width: 70%;
+    width: 70%;/*especifica la anchura del area de contenido de un elemento*/
     padding: 0 .5rem;
     background: none;
     color: #fff;
 }
 
 .button2 {
-    display: inline-block;
+    display: inline-block;/*especifica si un elemento es tratado como block or inline element*/
     background: #0557fc;
     color: #fff;
     padding: 1rem 1.75rem;
@@ -487,7 +488,7 @@ img {
 }
 
 .footerL {
-    display: flex;
+    display: flex;/*especifica si un elemento es tratado como block or inline element*/
     align-items: center;
     column-gap: .5rem;
     margin-bottom: 1rem;
@@ -496,7 +497,7 @@ img {
 }
 
 .footerL-img {
-    width: 20px;
+    width: 20px;/*especifica la anchura del area de contenido de un elemento*/
 }
 
 .footerdescription {
@@ -504,17 +505,17 @@ img {
 }
 
 .footersocial {
-    display: flex;
+    display: flex;/*especifica si un elemento es tratado como block or inline element*/
     column-gap: .75rem;
 }
 
 .footersocial-link {
-    display: inline-flex;
+    display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
     background: #000c32;
     padding: .25rem;
     border-radius: .25rem;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1rem;/*Tamaño letra body*/
 }
 
 .footersocial-link:hover {
@@ -527,12 +528,12 @@ img {
 }
 
 .footerlinks {
-    display: grid;
+    display: grid;/*especifica si un elemento es tratado como block or inline element*/
     row-gap: .35rem;
 }
 
 .footerlink {
-    font-size: .813rem;
+    font-size: .813rem;/*Tamaño letra body*/
     color: #fff;
     transition: .3s;
 }
@@ -542,9 +543,9 @@ img {
 }
 
 .footercopy {
-    display: block;
+    display: block;/*especifica si un elemento es tratado como block or inline element*/
     text-align: center;
-    font-size: .75rem;
+    font-size: .75rem;/*Tamaño letra body*/
     margin-top: 4.5rem;
 }
 
@@ -554,7 +555,7 @@ img {
   background: #000C32;
   right: 1rem;
   bottom: -20%;
-  display: inline-flex;
+  display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
   padding: .3rem;
   border-radius: .25rem;
   z-index:10;
@@ -563,7 +564,7 @@ img {
 }
 
 .scrollupicon{
-  font-size: 1.25rem;
+  font-size: 1.25rem;/*Tamaño letra body*/
   color: #fff;
 }
 
@@ -579,7 +580,7 @@ img {
 
 /*scroll bar*/
 ::-webkit-scrollbar {
-    width: 0.6rem;
+    width: 0.6rem;/*especifica la anchura del area de contenido de un elemento*/
     background: #413e3e;
 }
 ::-webkit-scrollbar-thumb {
@@ -588,7 +589,7 @@ img {
 }
 
 .gerencia {
-    width: 60%;
+    width: 60%;/*especifica la anchura del area de contenido de un elemento*/
     text-align: center;
     height: 30%;
     margin-top: 0.4cm;
@@ -605,7 +606,7 @@ img {
 
     .homebut {
         flex-direction: column;
-        width: max-content;
+        width: max-content;/*especifica la anchura del area de contenido de un elemento*/
         row-gap: 1rem;
     }
     .categorycontainer, 
@@ -624,7 +625,7 @@ img {
     }
 
     .newslc{
-        display: grid;
+        display: grid;/*especifica si un elemento es tratado como block or inline element*/
         grid-template-columns: .7fr;
         justify-content: center;
     }
@@ -646,7 +647,7 @@ img {
     }
     .navclose, 
     .navToggle {
-        display: none;
+        display: none;/*especifica si un elemento es tratado como block or inline element*/
     }
     .navList {
         flex-direction: row;
@@ -698,7 +699,7 @@ img {
     }
 
     .discountimg {
-        width: 350px;
+        width: 350px;/*especifica la anchura del area de contenido de un elemento*/
         order: -1;
     }
 
@@ -727,12 +728,12 @@ img {
     }
 
     .sectiontitle {
-        font-size: 1.5rem;
+        font-size: 1.5rem;/*Tamaño letra body*/
         margin-bottom: 3rem;
     }
 
     .hometitle {
-        font-size: 1.5rem;
+        font-size: 1.5rem;/*Tamaño letra body*/
         margin-bottom: 3rem;
     }
 
@@ -773,7 +774,7 @@ img {
         column-gap: 7rem;
     }
     .aboutimg {
-        width: 350px;
+        width: 350px;/*especifica la anchura del area de contenido de un elemento*/
     }
     .aboutdescription {
         padding-right: 2rem;
@@ -785,25 +786,25 @@ img {
         border-radius: 1.5rem;
     }
     .productimg {
-        width: 110px;
+        width: 110px;/*especifica la anchura del area de contenido de un elemento*/
 
     }
 
     .producttitle {
-        font-size: 1rem;
+        font-size: 1rem;/*Tamaño letra body*/
     }
     .discountcontainer {
         column-gap: 7rem;
     }
 
     .newcontent {
-        width: 310px;
+        width: 310px;/*especifica la anchura del area de contenido de un elemento*/
         border-radius: 1rem;
         padding: 2rem 0;
     }
 
     .newimg {
-        width: 150px;
+        width: 150px;/*especifica la anchura del area de contenido de un elemento*/
     }
     .newimg,
     .newsubtitle {
@@ -811,7 +812,7 @@ img {
     }
 
     .newtitle {
-        font-size: 1rem;
+        font-size: 1rem;/*Tamaño letra body*/
     }
 
     .footercopy {
