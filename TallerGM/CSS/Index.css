@@ -66,7 +66,7 @@ img {
 }
 
 .main {
-    overflow: hidden; /*especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque.*/
+    overflow: hidden; /*especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque*/
 }
 
 .container {
@@ -255,11 +255,11 @@ img {
 
 /*ABOUT*/
 .aboutcontainer {
-    row-gap: 2rem;
+    row-gap: 2rem;/*Tamaño de espacio entre las filas*/
 }
 
 .aboutdata {
-    text-align: center;
+    text-align: center;/*alineacion de texto*/
 }
 
 .aboutdescription{
@@ -273,7 +273,7 @@ img {
 /*PRODUCT*/
 
 .productcontainer {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
     gap: 1.5rem;/*Establece el espacio entre las filas y las columnas*/
     padding-top: 1rem;/*establece el espacio de relleno requerido en la parte superior del elemento*/
 
@@ -281,12 +281,12 @@ img {
 }
 
 .productcontent{
-    position: relative;
+    position: relative;/*especifica cómo un elemento es posicionado en el documento*/
     background: #000c32;
     border-radius: 1rem;
     padding: 1.5rem 0 1rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
-    text-align: center;
-    overflow: hidden;
+    text-align: center;/*alineacion de texto*/
+    overflow: hidden;/*especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque*/
 }
 
 .productimg {
@@ -307,7 +307,7 @@ img {
 .producttitle,
 .productprice {
     color: #fff;
-    font-weight: 500;
+    font-weight: 500;/*especifica el peso o grueso de la letra*/
     font-size: .938rem;/*Tamaño letra body*/
 }
 
@@ -316,8 +316,8 @@ img {
     display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
     padding: .5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     border-radius: .25rem .25rem .75rem .25rem;/*radio del borde*/
-    position: absolute;
-    right: -3rem;
+    position: absolute;/*especifica cómo un elemento es posicionado en el documento*/
+    right: -3rem;/*especifica parte de la posición de un elemento*/
     bottom: 0;
 }
 
@@ -331,7 +331,7 @@ img {
 }
 
 .productcontent:hover .productbutton {
-    right: 0;
+    right: 0;/*especifica parte de la posición de un elemento*/
 }
 
 
@@ -340,10 +340,10 @@ img {
     background: #000c32;
     border-radius: 1rem;/*radio del borde*/
     padding: 2.5rem 0 1.5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
-    row-gap: .75rem;
+    row-gap: .75rem;/*Tamaño de espacio entre las filas*/
 }
 .discountdata {
-    text-align: center;
+    text-align: center;/*alineacion de texto*/
 
 }
 
@@ -369,12 +369,12 @@ img {
 }
 
 .newcontent {
-    position: relative;
+    position: relative;/*especifica cómo un elemento es posicionado en el documento*/
     background: #000c32;
     width: 242px;/*especifica la anchura del area de contenido de un elemento*/
     padding: 2rem 0 1.5rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     border-radius: .75rem;/*radio del borde*/
-    text-align: center;
+    text-align: center;/*alineacion de texto*/
     overflow: hidden;
 }
 
@@ -391,7 +391,7 @@ img {
 
 .newtitle {
     font-size: .938rem;/*Tamaño letra body*/
-    font-weight: 500;
+    font-weight: 500;/*especifica el peso o grueso de la letra*/
 }
 
 .newsubtitle {
@@ -407,7 +407,7 @@ img {
 }
 
 .newprice {
-    font-weight: 500;
+    font-weight: 500;/*especifica el peso o grueso de la letra*/
     color: #fff;
 }
 
@@ -415,16 +415,16 @@ img {
     color: #3678ff;
     font-size: .75rem;/*Tamaño letra body*/
     text-decoration: line-through;
-    font-weight: 500;
+    font-weight: 500;/*especifica el peso o grueso de la letra*/
 }
 
 .newbutton {
     display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
     padding: .5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     border-radius: .25rem .25rem .75rem .25rem;/*radio del borde*/
-    position: absolute;
+    position: absolute;/*especifica cómo un elemento es posicionado en el documento*/
     bottom: 0;
-    right: -3rem;
+    right: -3rem;/*especifica parte de la posición de un elemento*/
 }
 
 .newicon {
@@ -436,13 +436,13 @@ img {
 }
 
 .newcontent:hover .newbutton {
-    right: 0;
+    right: 0;/*especifica parte de la posición de un elemento*/
 }
 
 
 /*NOTICIAS*/
 .newsld {
-    text-align: center;
+    text-align: center;/*alineacion de texto*/
     margin-bottom: 1.5rem;/*margen inferior*/
 }
 
@@ -468,7 +468,7 @@ img {
     color: #fff;
     padding: 1rem 1.75rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     border-radius: 0.5rem;/*radio del borde*/
-    font-weight: 500;
+    font-weight: 500;/*especifica el peso o grueso de la letra*/
     transition: .3s;
 }
 
@@ -479,12 +479,12 @@ img {
 /*FOOTER*/
 
 .footer {
-    position: relative;
-    overflow: hidden;
+    position: relative;/*especifica cómo un elemento es posicionado en el documento*/
+    overflow: hidden;/*especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque*/
 }
 
 .footercontainer {
-    row-gap: 2rem;
+    row-gap: 2rem;/*Tamaño de espacio entre las filas*/
 }
 
 .footerL {
@@ -492,7 +492,7 @@ img {
     align-items: center;
     column-gap: .5rem;/*Tamaño de espacio entre las columnas*/
     margin-bottom: 1rem;/*margen inferior*/
-    font-weight: 500;
+    font-weight: 500;/*especifica el peso o grueso de la letra*/
     color: #fff;
 }
 
@@ -529,7 +529,7 @@ img {
 
 .footerlinks {
     display: grid;/*especifica si un elemento es tratado como block or inline element*/
-    row-gap: .35rem;
+    row-gap: .35rem;/*Tamaño de espacio entre las filas*/
 }
 
 .footerlink {
@@ -544,16 +544,16 @@ img {
 
 .footercopy {
     display: block;/*especifica si un elemento es tratado como block or inline element*/
-    text-align: center;
+    text-align: center;/*alineacion de texto*/
     font-size: .75rem;/*Tamaño letra body*/
     margin-top: 4.5rem;/*margen superior*/
 }
 
 /*scroll up */
 .scrollup{
-  position: fixed;
+  position: fixed;/*especifica cómo un elemento es posicionado en el documento*/
   background: #000C32;
-  right: 1rem;
+  right: 1rem;/*especifica parte de la posición de un elemento*/
   bottom: -20%;
   display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
   padding: .3rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
@@ -590,7 +590,7 @@ img {
 
 .gerencia {
     width: 60%;/*especifica la anchura del area de contenido de un elemento*/
-    text-align: center;
+    text-align: center;/*alineacion de texto*/
     height: 30%;
     margin-top: 0.4cm;/*margen superior*/
 }
@@ -607,11 +607,11 @@ img {
     .homebut {
         flex-direction: column;
         width: max-content;/*especifica la anchura del area de contenido de un elemento*/
-        row-gap: 1rem;
+        row-gap: 1rem;/*Tamaño de espacio entre las filas*/
     }
     .categorycontainer, 
     .productcontainer {
-        grid-template-columns: .8fr;
+        grid-template-columns: .8fr;/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
         justify-content: center;
     }
     
@@ -620,13 +620,13 @@ img {
 
 @media (min-width: 576px) {
     .aboutcontainer {
-        grid-template-columns: .8fr;
+        grid-template-columns: .8fr;/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
         justify-content: center;
     }
 
     .newslc{
         display: grid;/*especifica si un elemento es tratado como block or inline element*/
-        grid-template-columns: .7fr;
+        grid-template-columns: .7fr;/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
         justify-content: center;
     }
     .newsld {
@@ -655,11 +655,11 @@ img {
     }
     .navLink {
         text-transform: initial;
-        font-weight: initial;
+        font-weight: initial;/*especifica el peso o grueso de la letra*/
     }
     .homecont {
         padding: 8rem 0 2rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
         gap: 4rem;/*Establece el espacio entre las filas y las columnas*/
     }
 
@@ -668,29 +668,29 @@ img {
     }
 
     .categorycontainer {
-        grid-template-columns: repeat(3, 200px);
+        grid-template-columns: repeat(3, 200px);/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
         justify-content: center;
     }
     .aboutcontainer {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
         align-items: center;
     }
     .abouttitle,
     .aboutdata {
-        text-align: initial;
+        text-align: initial;/*alineacion de texto*/
 
     }
     .aboutimg {
         width: 250px;
     }
     .productcontainer {
-        grid-template-columns: repeat(3,200px);
+        grid-template-columns: repeat(3,200px);/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
         justify-content: center;
         gap: 2rem;/*Establece el espacio entre las filas y las columnas*/
     }
 
     .discountcontainer {
-        grid-template-columns: repeat(2, max-content);
+        grid-template-columns: repeat(2, max-content);/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
         justify-content: center;
         align-items: center;
         column-gap: 3rem;/*Tamaño de espacio entre las columnas*/
@@ -704,15 +704,15 @@ img {
     }
 
     .discountdata {
-        padding-right: 6rem;
+        padding-right: 6rem;/*establece el espacio de relleno requerido por el lado derecho de un elemento*/
     }
 
     .newslc {
-        grid-template-columns: .5fr;
+        grid-template-columns: .5fr;/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
     }
 
     .footercontainer {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
         justify-items: center;
         column-gap: 1rem;/*Tamaño de espacio entre las columnas*/
     }
@@ -744,7 +744,7 @@ img {
     
     .homeindicator {
         top: initial;
-        right: initial;
+        right: initial;/*especifica parte de la posición de un elemento*/
         bottom: 15%;
         left: 45%;
     }
@@ -755,13 +755,13 @@ img {
 
     .homedetails-img {
         bottom: 0;
-        right: 58%;
+        right: 58%;/*especifica parte de la posición de un elemento*/
 
     }
 
     .homedes {
         margin-bottom: 2.5rem;/*margen inferior*/
-        padding-right: 2rem;
+        padding-right: 2rem;/*establece el espacio de relleno requerido por el lado derecho de un elemento*/
     }
     .categorycontainer {
         column-gap: 8rem;/*Tamaño de espacio entre las columnas*/
