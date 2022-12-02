@@ -15,7 +15,7 @@ body {
     margin: 3.5rem 0 0 0; /*establece el margen para los cuatro lados*/
     font-family: Georgia, 'Times New Roman', Times, serif; /*define una lista de fuentes o familias de fuentes*/
     font-size: .950rem; /*Tamaño letra body*/
-    background: linear-gradient(90deg, #000000 10%, #505050 50%); /* es un atajo para definir los valores individuales del fondo */
+    background: linear-gradient(90deg, #000000 10%, #505050 50%); /*es un atajo para definir los valores individuales del fondo*/
     color: #fff; /*denota un color*/
 }
 
@@ -170,7 +170,7 @@ img {
 .active-link::before {
     content: ''; /*Reemplaza un elemento con un valor generado*/
     position: absolute;/*especifica cómo un elemento es posicionado en el documento*/
-    bottom: -.75rem;/*especifica parte de la posición de un elemento*/
+    bottom: -.75rem;/*especifica la posición abajo de un elemento*/
     left: 45%; /*posición izquierda*/
     width: 5px;/*especifica la anchura del area de contenido de un elemento*/
     height: 5px;/*especifica la altura de un elemento.*/
@@ -282,7 +282,7 @@ img {
 
 .productcontent{
     position: relative;/*especifica cómo un elemento es posicionado en el documento*/
-    background: #000c32;
+    background: #000c32;/*es un atajo para definir los valores individuales del fondo*/
     border-radius: 1rem;
     padding: 1.5rem 0 1rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     text-align: center;/*alineacion de texto*/
@@ -317,8 +317,8 @@ img {
     padding: .5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     border-radius: .25rem .25rem .75rem .25rem;/*radio del borde*/
     position: absolute;/*especifica cómo un elemento es posicionado en el documento*/
-    right: -3rem;/*especifica parte de la posición de un elemento*/
-    bottom: 0;
+    right: -3rem;/*especifica la posición arriba de un elemento*/
+    bottom: 0;/*especifica la posición abajo de un elemento*/
 }
 
 .producticon {
@@ -337,7 +337,7 @@ img {
 
 /*DESCUENTO*/
 .discountcontainer {
-    background: #000c32;
+    background: #000c32;/*es un atajo para definir los valores individuales del fondo*/
     border-radius: 1rem;/*radio del borde*/
     padding: 2.5rem 0 1.5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     row-gap: .75rem;/*Tamaño de espacio entre las filas*/
@@ -370,7 +370,7 @@ img {
 
 .newcontent {
     position: relative;/*especifica cómo un elemento es posicionado en el documento*/
-    background: #000c32;
+    background: #000c32;/*es un atajo para definir los valores individuales del fondo*/
     width: 242px;/*especifica la anchura del area de contenido de un elemento*/
     padding: 2rem 0 1.5rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     border-radius: .75rem;/*radio del borde*/
@@ -423,7 +423,7 @@ img {
     padding: .5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     border-radius: .25rem .25rem .75rem .25rem;/*radio del borde*/
     position: absolute;/*especifica cómo un elemento es posicionado en el documento*/
-    bottom: 0;
+    bottom: 0;/*especifica la posición abajo de un elemento*/
     right: -3rem;/*especifica parte de la posición de un elemento*/
 }
 
@@ -436,7 +436,7 @@ img {
 }
 
 .newcontent:hover .newbutton {
-    right: 0;/*especifica parte de la posición de un elemento*/
+    right: 0;/*especifica la posición arriba de un elemento*/
 }
 
 
@@ -447,7 +447,7 @@ img {
 }
 
 .newslf {
-    background: #3678ff;
+    background: #3678ff;/*es un atajo para definir los valores individuales del fondo*/
     padding: 1rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     display: flex;/*especifica si un elemento es tratado como block or inline element*/
     justify-content: space-between;
@@ -458,13 +458,13 @@ img {
 .newslin {
     width: 70%;/*especifica la anchura del area de contenido de un elemento*/
     padding: 0 .5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
-    background: none;
+    background: none;/*es un atajo para definir los valores individuales del fondo*/
     color: #fff;
 }
 
 .button2 {
     display: inline-block;/*especifica si un elemento es tratado como block or inline element*/
-    background: #0557fc;
+    background: #0557fc;/*es un atajo para definir los valores individuales del fondo*/
     color: #fff;
     padding: 1rem 1.75rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     border-radius: 0.5rem;/*radio del borde*/
@@ -511,7 +511,7 @@ img {
 
 .footersocial-link {
     display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
-    background: #000c32;
+    background: #000c32;/*es un atajo para definir los valores individuales del fondo*/
     padding: .25rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     border-radius: .25rem;/*radio del borde*/
     color: #fff;
@@ -519,7 +519,7 @@ img {
 }
 
 .footersocial-link:hover {
-    background: #0557fc;
+    background: #0557fc;/*es un atajo para definir los valores individuales del fondo*/
 }
 
 .footertitle {
@@ -552,9 +552,9 @@ img {
 /*scroll up */
 .scrollup{
   position: fixed;/*especifica cómo un elemento es posicionado en el documento*/
-  background: #000C32;
-  right: 1rem;/*especifica parte de la posición de un elemento*/
-  bottom: -20%;
+  background: #000C32;/*es un atajo para definir los valores individuales del fondo*/
+  right: 1rem;/*especifica la posicion arriba de un elemento*/
+  bottom: -20%;/*especifica la posición abajo de un elemento*/
   display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
   padding: .3rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
   border-radius: .25rem;/*radio del borde*/
@@ -575,16 +575,16 @@ img {
 
 /* Show Scroll Up*/
 .show-scroll{
-  bottom: 3rem;
+  bottom: 3rem;/*especifica la posición abajo de un elemento*/
 }
 
 /*scroll bar*/
 ::-webkit-scrollbar {
     width: 0.6rem;/*especifica la anchura del area de contenido de un elemento*/
-    background: #413e3e;
+    background: #413e3e;/*es un atajo para definir los valores individuales del fondo*/
 }
 ::-webkit-scrollbar-thumb {
-    background: #272525;
+    background: #272525;/*es un atajo para definir los valores individuales del fondo*/
     border-radius: .5rem;/*radio del borde*/
 }
 
@@ -724,7 +724,7 @@ img {
 
     .container {
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto;/*establece el margen derecho de un elemento*/
     }
 
     .sectiontitle {
@@ -744,8 +744,8 @@ img {
     
     .homeindicator {
         top: initial;
-        right: initial;/*especifica parte de la posición de un elemento*/
-        bottom: 15%;
+        right: initial;/*especifica la posicion derecha de un elemento*/
+        bottom: 15%;/*especifica la posición abajo de un elemento*/
         left: 45%;
     }
     .homeindicator::after {
@@ -754,8 +754,8 @@ img {
     }
 
     .homedetails-img {
-        bottom: 0;
-        right: 58%;/*especifica parte de la posición de un elemento*/
+        bottom: 0;/*especifica la posición abajo de un elemento*/
+        right: 58%;/*especifica la posicion derecha de un elemento*/
 
     }
 
