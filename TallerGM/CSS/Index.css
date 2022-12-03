@@ -78,8 +78,8 @@ img {
 .nav {
     height: 4rem;/*especifica la altura de un elemento.*/
     display: flex;/*especifica si un elemento es tratado como block or inline element*/
-    justify-content: space-between;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor.*/
-    align-items: center;/* establece el valor align-self sobre todos los descendientes directos de un grupo*/
+    justify-content: space-between;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
+    align-items: center; /*Centra los elementos*/
 }
 
 .navLogo {
@@ -112,7 +112,7 @@ img {
 .navLink,
 .navToggle,
 .navclose {
-    color: #fff;
+    color: #fff; /*color letras*/
 }
 
 .navToggle {
@@ -138,7 +138,7 @@ img {
     font-size: 1.8rem;/*Tamaño letra*/
     position: absolute;/*especifica cómo un elemento es posicionado en el documento*/
     top: .5rem;/*posición arriba*/
-    right: .7rem;/*especifica parte de la posición de un elemento*/
+    right: .7rem;/*especifica la posición derecha de un elemento*/
     cursor: pointer;/*estilo cursor*/
 }
 
@@ -267,7 +267,7 @@ img {
 }
 .aboutimg {
     width: 200px;/*especifica la anchura del area de contenido de un elemento*/
-    justify-self: center; /*Establece la manera que se justifica un elemento dentro de un contenedor*/ 
+    justify-self: center; /*justifica un elemento dentro de un contenedor*/ 
 }
 
 /*PRODUCT*/
@@ -283,7 +283,7 @@ img {
 .productcontent{
     position: relative;/*especifica cómo un elemento es posicionado en el documento*/
     background: #000c32;/*es un atajo para definir los valores individuales del fondo*/
-    border-radius: 1rem;
+    border-radius: 1rem;/*radio del borde*/
     padding: 1.5rem 0 1rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     text-align: center;/*alineacion de texto*/
     overflow: hidden;/*especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque*/
@@ -291,7 +291,7 @@ img {
 
 .productimg {
     width: 90px;/*especifica la anchura del area de contenido de un elemento*/
-    transition: .3s;
+    transition: .3s;/*Permite definir la transición entre dos estados de un elemento*/
 }
 
 .productsubtitle,
@@ -354,7 +354,7 @@ img {
 
 .discountimg {
     width: 200px;/*especifica la anchura del area de contenido de un elemento*/
-    justify-self: center;
+    justify-self: center;/*justifica un elemento dentro de un contenedor*/ 
 }
 
 /*NEW*/
@@ -365,7 +365,7 @@ img {
 .newimg {
     width: 120px;/*especifica la anchura del area de contenido de un elemento*/
     margin-bottom: .5rem;/*margen inferior*/
-    transition: .3s;
+    transition: .3s;/*Permite definir la transición entre dos estados de un elemento*/
 }
 
 .newcontent {
@@ -375,15 +375,15 @@ img {
     padding: 2rem 0 1.5rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     border-radius: .75rem;/*radio del borde*/
     text-align: center;/*alineacion de texto*/
-    overflow: hidden;
+    overflow: hidden;/*especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque*/
 }
 
 .newtag {
-    position: absolute;
-    top: 8%;
-    left: 8%;
-    background-color: #3678ff;
-    color: #fff;
+    position: absolute;/*especifica cómo un elemento es posicionado en el documento*/
+    top: 8%;/*posicion arriba*/
+    left: 8%;/*posicion izquierda*/
+    background-color: #3678ff;/*color del fondo*/
+    color: #fff;/*color de las letras*/
     font-size: .813rem;/*Tamaño letra body*/
     padding: .25rem .5rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     border-radius: .25rem;/*radio del borde*/
@@ -402,7 +402,7 @@ img {
 
 .newprices {
     display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
-    align-items: center;
+    align-items: center;/*alinea los elementos*/
     margin-bottom: .5rem;
 }
 
@@ -450,7 +450,7 @@ img {
     background: #3678ff;/*es un atajo para definir los valores individuales del fondo*/
     padding: 1rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     display: flex;/*especifica si un elemento es tratado como block or inline element*/
-    justify-content: space-between;
+    justify-content: space-between;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
     border-radius: .75rem;/*radio del borde*/
 }
 
@@ -469,7 +469,7 @@ img {
     padding: 1rem 1.75rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     border-radius: 0.5rem;/*radio del borde*/
     font-weight: 500;/*especifica el peso o grueso de la letra*/
-    transition: .3s;
+    transition: .3s;/*Permite definir la transición entre dos estados de un elemento*/
 }
 
 .newslin::placeholder {
@@ -489,7 +489,7 @@ img {
 
 .footerL {
     display: flex;/*especifica si un elemento es tratado como block or inline element*/
-    align-items: center;
+    align-items: center;/*alinea los elementos*/
     column-gap: .5rem;/*Tamaño de espacio entre las columnas*/
     margin-bottom: 1rem;/*margen inferior*/
     font-weight: 500;/*especifica el peso o grueso de la letra*/
@@ -523,7 +523,7 @@ img {
 }
 
 .footertitle {
-    font-size: 1rem;
+    font-size: 1rem;/*Tamaño letra body*/
     margin-bottom: 1rem;/*margen inferior*/
 }
 
@@ -535,7 +535,7 @@ img {
 .footerlink {
     font-size: .813rem;/*Tamaño letra body*/
     color: #fff;
-    transition: .3s;
+    transition: .3s;/*Permite definir la transición entre dos estados de un elemento*/
 }
 
 .footerlink:hover {
@@ -558,9 +558,9 @@ img {
   display: inline-flex;/*especifica si un elemento es tratado como block or inline element*/
   padding: .3rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
   border-radius: .25rem;/*radio del borde*/
-  z-index:10;
-  opacity: .8;
-  transition: .4s;
+  z-index:10;/*indica el orden de un elemento posicionado y sus descendientes*/
+  opacity: .8;/*define la transparencia*/
+  transition: .4s;/*Permite definir la transición entre dos estados de un elemento*/
 }
 
 .scrollupicon{
@@ -569,8 +569,8 @@ img {
 }
 
 .scrollup:hover{
-  background: #000C32;
-  opacity: 1;
+  background: #000C32;/*es un atajo para definir los valores individuales del fondo*/
+  opacity: 1;/*define la transparencia*/
 }
 
 /* Show Scroll Up*/
@@ -591,7 +591,7 @@ img {
 .gerencia {
     width: 60%;/*especifica la anchura del area de contenido de un elemento*/
     text-align: center;/*alineacion de texto*/
-    height: 30%;
+    height: 30%;/*especifica la altura de un elemento*/
     margin-top: 0.4cm;/*margen superior*/
 }
 
@@ -600,19 +600,19 @@ img {
 
 @media (max-width: 320px) {
     .container {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 1rem;/*margen izquierda*/
+        margin-right: 1rem;/*margen derecha*/
     }
 
     .homebut {
-        flex-direction: column;
+        flex-direction: column;/*cómo colocar los objetos flexibles en el contenedor*/
         width: max-content;/*especifica la anchura del area de contenido de un elemento*/
         row-gap: 1rem;/*Tamaño de espacio entre las filas*/
     }
     .categorycontainer, 
     .productcontainer {
         grid-template-columns: .8fr;/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
-        justify-content: center;
+        justify-content: center;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
     }
     
 }
@@ -621,13 +621,13 @@ img {
 @media (min-width: 576px) {
     .aboutcontainer {
         grid-template-columns: .8fr;/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
-        justify-content: center;
+        justify-content: center;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
     }
 
     .newslc{
         display: grid;/*especifica si un elemento es tratado como block or inline element*/
         grid-template-columns: .7fr;/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
-        justify-content: center;
+        justify-content: center;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
     }
     .newsld {
         padding: 0 3rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
@@ -669,11 +669,11 @@ img {
 
     .categorycontainer {
         grid-template-columns: repeat(3, 200px);/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
-        justify-content: center;
+        justify-content: center;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
     }
     .aboutcontainer {
         grid-template-columns: repeat(2, 1fr);/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
-        align-items: center;
+        align-items: center; /*Centra los elementos*/
     }
     .abouttitle,
     .aboutdata {
@@ -681,18 +681,18 @@ img {
 
     }
     .aboutimg {
-        width: 250px;
+        width: 250px;/*especifica la anchura del area de contenido de un elemento*/
     }
     .productcontainer {
         grid-template-columns: repeat(3,200px);/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
-        justify-content: center;
+        justify-content: center;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
         gap: 2rem;/*Establece el espacio entre las filas y las columnas*/
     }
 
     .discountcontainer {
         grid-template-columns: repeat(2, max-content);/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
-        justify-content: center;
-        align-items: center;
+        justify-content: center;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor*/
+        align-items: center; /*Centra los elementos*/
         column-gap: 3rem;/*Tamaño de espacio entre las columnas*/
         padding: 3rem 0;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
         border-radius: 3rem;/*radio del borde*/
@@ -700,7 +700,7 @@ img {
 
     .discountimg {
         width: 350px;/*especifica la anchura del area de contenido de un elemento*/
-        order: -1;
+        order: -1;/*ordena los elementos en su contenedor*/
     }
 
     .discountdata {
@@ -713,7 +713,7 @@ img {
 
     .footercontainer {
         grid-template-columns: repeat(4, 1fr);/*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
-        justify-items: center;
+        justify-items: center;/*justifica los elemntos*/
         column-gap: 1rem;/*Tamaño de espacio entre las columnas*/
     }
 
@@ -723,7 +723,7 @@ img {
 @media (min-width: 992px) {
 
     .container {
-        margin-left: auto;
+        margin-left: auto;/*margen izquierda*/
         margin-right: auto;/*establece el margen derecho de un elemento*/
     }
 
@@ -738,19 +738,19 @@ img {
     }
 
     .homecont {
-        padding-top: 9rem;
+        padding-top: 9rem;/*establece el espacio de relleno requerido en la parte superior del elemento*/
         gap: 3rem;/*Establece el espacio entre las filas y las columnas*/
     }
     
     .homeindicator {
-        top: initial;
+        top: initial;/*especifica parte de la posición de un elemento posicionado*/
         right: initial;/*especifica la posicion derecha de un elemento*/
         bottom: 15%;/*especifica la posición abajo de un elemento*/
-        left: 45%;
+        left: 45%;/*especifica parte de la posición de un elemento*/
     }
     .homeindicator::after {
-        top: 0;
-        height: 75px;
+        top: 0;/*especifica parte de la posición de un elemento posicionado*/
+        height: 75px;/*especifica la altura de un elemento*/
     }
 
     .homedetails-img {
