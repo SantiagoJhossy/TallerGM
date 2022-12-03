@@ -1,3 +1,3 @@
 # TallerGM
 ## Link de la Página
-https://tallergm.000webhostapp.com/
+https://tallergm.netlify.app/
