@@ -643,14 +643,14 @@ img {
         padding: 7rem 0 2rem;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
     }
     .nav {
-        height: calc(3.5rem + 1.5rem);
+        height: calc(3.5rem + 1.5rem);/*especifica la altura de un elemento*/
     }
     .navclose, 
     .navToggle {
         display: none;/*especifica si un elemento es tratado como block or inline element*/
     }
     .navList {
-        flex-direction: row;
+        flex-direction: row;/*cómo colocar los objetos flexibles en el contenedor*/
         column-gap: 3rem;/*Tamaño de espacio entre las columnas*/
     }
     .navLink {
@@ -777,7 +777,7 @@ img {
         width: 350px;/*especifica la anchura del area de contenido de un elemento*/
     }
     .aboutdescription {
-        padding-right: 2rem;
+        padding-right: 2rem;/*establece el espacio de relleno requerido por el lado derecho de un elemento*/
     }
     .productcontainer {
         gap: 3.5rem;/*Establece el espacio entre las filas y las columnas*/
